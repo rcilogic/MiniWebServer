@@ -1,0 +1,6 @@
+{
+    "httpURL": "http://127.0.0.1:8080/",
+    "useCompression": true,
+    "requestThrottleLimit": 100,
+    "requestTimeout": 30
+}

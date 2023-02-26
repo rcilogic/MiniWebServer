@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripted Routes</title>
+    <style>
+        html {
+            font-size: 2 rem;
+            font-family: sans-serif;
+            line-height: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scripted Routes Examples</h1>
+    <ol>
+        <li><a href="./secured-by-guard/">Static route with a guard ('anonymous')</a></li>
+        <li><a href="./secured-by-guard/?apiKey=12345">Static route with a guard ('apiKey' provided)</a></li>
+        <li><a href="/examples/single-index/1/2/3/4/5">Static route with single index</a></li>
+        <li><a href="/examples/pwsh-processes.ps1">Executable script</a></li>
+        <li><a href="/examples/greet/World/">Scripted route with parameters: /examples/greet/:name</a></li>
+        <li><a href="/examples/context-info">Scripted route with a guard ('anonymous')</a></li>
+        <li><a href="/examples/context-info?apiKey=12345">Scripted route with a guard ('apiKey' provided)</a></li>
+    </ol>
+</body>
+</html>
