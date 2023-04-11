@@ -5,6 +5,9 @@
 - Handles requests asynchronously.
 - Provides routing capabilities, including the ability to pass parameters.
 
+## Introduction
+When working as a system administrator, especially when using Powershell for process automation, there are often situations when the results of a script must be accessible to ordinary users without special knowledge or permissions to perform administrative operations. It is precisely in such cases that dividing the solution into frontend and backend becomes a very convenient approach. My project allows for the quick deployment of a web server based on Powershell, which organizes the backend using a powerful tool with a large number of ready-made cmdlets and easy access to WMI. Thus, users can receive script execution results without having any special knowledge or permissions.
+
 ## Requirements
 
 To use this MiniWebServer, you need to have PowerShell version 7.0 or higher installed on your computer. You can check your PowerShell version by opening a PowerShell prompt and running the following command:
